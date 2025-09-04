@@ -9,7 +9,8 @@ pipeline {
     stage('For the test branch') {
       when {
         branch "*test*"
-      }      steps {
+      }
+      steps {
         echo "If you see this, then it is from test branch :P"
       }
     }
